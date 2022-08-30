@@ -1,0 +1,68 @@
+const topCollData = [
+  {
+    image: "https://img.seadn.io/files/08861477db82064f559ac57b678c5dde.png",
+    title: "COOLGUYZZ",
+    creator: "Coolguyzz.io",
+    eth: "1.5 ETH",
+    value: "$2045.12",
+    price: "-12.45",
+  },
+  {
+    image: "https://img.seadn.io/files/8e668ed04db9a7f8130b61d05ed519f9.png",
+    title: "gangstaboi v.1",
+    creator: "GB_Gangs",
+    eth: "2.53 ETH",
+    value: "$4487",
+    price: "+34.5",
+  },
+  {
+    image: "https://img.seadn.io/files/2616bd8aee381d3b0b8122ab075a0741.png",
+    title: "HyperApe",
+    creator: "HyperApe.co",
+    eth: "1.31 ETH",
+    value: "$1743.4",
+    price: "-5.6",
+  },
+  {
+    image: "https://img.seadn.io/files/fd1502485822815585d9a207d101ce6d.png",
+    title: "HyperApe",
+    creator: "HyperApe.co",
+    eth: "1.31 ETH",
+    value: "$1743.4",
+    price: "-5.6",
+  },
+  {
+    image: "https://img.seadn.io/files/fab9ab19b9c63b6cfe4296646fb3fd56.png",
+    title: "Lyodd$1",
+    creator: "Naomi Po",
+    eth: "1.156 ETH",
+    value: "$1670",
+    price: "+12.45",
+  },
+  {
+    image: "https://img.seadn.io/files/ad78034dfe6af6480839b6f3aa10f184.png",
+    title: "Azuki 3D ",
+    creator: "AZUKI.JP",
+    eth: "1.5 ETH",
+    value: "$1907",
+    price: "+1.6",
+  },
+  {
+    image: "https://img.seadn.io/files/fcc125e38a9a117666690cbe8174c341.png",
+    title: "CuteApe White ",
+    creator: "CuteApe_99",
+    eth: "0.045 ETH",
+    value: "$245.6",
+    price: "-14.5",
+  },
+  {
+    image: "https://lh3.googleusercontent.com/Q-yJL0J5j2a26BhikRrJx1VnYaCQZteSiNDGE6qpcP5VDzRybgUmoXbNzm-bMWvEpWh4ZgoHZCLkEYbtmTLEM8HYvXcRa3WQrmxGj9k=s0",
+    title: "SneakerHead Vol.1",
+    creator: "SneakerHead.Corp",
+    eth: "1.4 ETH",
+    value: "$1790",
+    price: "+67.9",
+  },
+];
+
+export default topCollData;

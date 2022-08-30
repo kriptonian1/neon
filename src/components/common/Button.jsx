@@ -1,10 +1,22 @@
 import React from 'react'
 
-const Button = ({ children }) => {
+/**
+ * 
+ * @description Button component with different color
+ * @param {string} color blue or transparent 
+ * @returns react component
+ */
+const Button = (props) => {
+
+  const blue = "bg-[#2F80ED] hover:bg-[#2E8EEE]";
+  const transparent = "bg-transparent border-[1px] border-white hover:bg-[#ffffff21]";
+
+  const classes = props.color === "blue" ? blue : transparent;
+
   return (
 
-    <button className='bg-[#2F80ED] hover:bg-[#2E8EEE] py-3 px-5 rounded-full font-semibold'>
-      {children}
+    <button onClick={props.onClick} className={`${classes} py-3 px-11 rounded-full font-semibold`}>
+      {props.children}
     </button>
 
   )

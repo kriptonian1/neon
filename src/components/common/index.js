@@ -1,3 +1,4 @@
 import Button from "./Button";
+import CardsTop from "./CardsTop";
 
-export { Button };
+export { Button, CardsTop };

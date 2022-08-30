@@ -31,12 +31,12 @@ const HeroSection = () => {
                 </div>
 
                 <div className='space-x-6 py-8'>
-                    <button className='bg-[#2F80ED] hover:bg-[#2E8EEE] py-3 px-11 rounded-full font-semibold'>
+                    <Button color="blue">
                         Explore
-                    </button>
-                    <button className='bg-transparent border-[1px] border-white hover:bg-[#ffffff21] py-3 px-11 rounded-full font-semibold'>
-                        Explore
-                    </button>
+                    </Button>
+                    <Button color="transparent">
+                        Create
+                    </Button>
                 </div>
 
                 <div className='flex justify-between space-x-6'>
@@ -68,17 +68,17 @@ const HeroSection = () => {
 
             <Tilt
                 className="tilt"
-                tiltMaxAngleX={5}
-                tiltMaxAngleY={5}
+                tiltMaxAngleX={10}
+                tiltMaxAngleY={10}
                 perspective={1000}
                 transitionSpeed={1000}
                 gyroscope={true}
-                scale={1.01}
+                scale={1.05}
             >
                 <img className='w-[35vw] ' data-tilt src={HeroImg} alt="hero" />
             </Tilt>
 
-            
+
 
 
 

@@ -1,6 +1,6 @@
 import React from 'react'
-import { logo } from '../assets'
-import { Button } from './common'
+import { logo } from '../../assets'
+import { Button } from '.'
 
 const Navbar = () => {
     return (
@@ -13,9 +13,11 @@ const Navbar = () => {
                 <a href='#'>Community</a>
                 <a href='#'>Create</a>
                 <div className='pl-9'>
-                    <Button>
-                    Connect Wallet
-                    </Button>
+                    <button className='bg-[#2F80ED] hover:bg-[#2E8EEE] py-3 px-5 rounded-full font-semibold'>
+                        Connect Wallet
+                    </button>
+
+
                 </div>
 
             </div>

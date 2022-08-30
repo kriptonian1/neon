@@ -1,4 +1,6 @@
-import Navbar from "./Navbar";
+import Navbar from "./common/Navbar";
 import HeroSection from "./HeroSection";
+import NftTrendSection from "./NftTrendSection";
+import TopCollection from "./TopCollection";
 
-export { Navbar, HeroSection };
+export { Navbar, HeroSection, NftTrendSection, TopCollection };
