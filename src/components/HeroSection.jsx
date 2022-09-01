@@ -15,7 +15,7 @@ const HeroSection = () => {
                     <div>
                         NFTs
                     </div>
-                    <div className={`bg-[#0400ff54] h-[40vh] w-[14vw] rounded-full blur-[150px] absolute left-[20vw] top-[28vh]`}></div>
+                    <div className={`bg-[#0400ff98] h-[40vh] w-[14vw] rounded-full blur-[150px] absolute left-[20vw] top-[28vh]`}></div>
                 </div>
 
                 <div className='font-poppins pt-7'>

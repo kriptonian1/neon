@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
-        clashDisplay: ["Clash Display", "cursive"],
+        clashDisplay: ["Clash Display"],
       }
     },
   },
