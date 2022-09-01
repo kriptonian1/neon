@@ -9,7 +9,7 @@ const TopCollection = () => {
     const changeColorSelected = isSelected ? "blue" : "transparent";
 
     return (
-        <div className='mt-[20vh]'>
+        <div className='mt-[27vh]'>
             <div className='flex justify-center items-center'>
                 <div className=' font-clashDisplay text-4xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#69EACB] via-[#EACCF8] to-[#6654F1]'>
                     Top Collections

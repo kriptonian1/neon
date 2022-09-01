@@ -1,12 +1,13 @@
 import React from 'react'
 import { exodusLogo, metamaskLogo, safepalLogo, trustwalletLogo, walletConnectLogo } from '../assets'
-import { HeroSection, Navbar, NftTrendSection, TopCollection } from '../components'
+import { CreateandSellNftSection, HeroSection, Navbar, NftTrendSection, TopCollection } from '../components'
 
 const Home = () => {
   return (
     <div className=' text-white font-poppins'>
       <Navbar />
       <HeroSection />
+
 
       <div className='mt-32'>
         <div className='flex justify-evenly m-9 px-4'>
@@ -22,11 +23,14 @@ const Home = () => {
 
 
       {/* <NftTrendSection /> */}
-      <TopCollection/>
-
-
-
+      <TopCollection />
+      <CreateandSellNftSection />
     </div>
+
+
+
+
+
   )
 }
 
