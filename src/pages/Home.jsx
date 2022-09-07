@@ -1,6 +1,6 @@
 import React from 'react'
 import { exodusLogo, metamaskLogo, safepalLogo, trustwalletLogo, walletConnectLogo } from '../assets'
-import { ArticleSection, CreateandSellNftSection, HeroSection, Navbar, NftTrendSection, TopCollection } from '../components'
+import { ArticleSection, CreateandSellNftSection, Footer, HeroSection, Navbar, NftTrendSection, TopCollection } from '../components'
 
 const Home = () => {
   return (
@@ -26,12 +26,8 @@ const Home = () => {
       <TopCollection />
       <CreateandSellNftSection />
       <ArticleSection />
+      <Footer/>
     </div>
-
-
-
-
-
   )
 }
 

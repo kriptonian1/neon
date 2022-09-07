@@ -1,5 +1,5 @@
 import { Route, Router, Routes } from "react-router-dom"
-import { Home } from "./pages"
+import { Home, PageNotFound } from "./pages"
 
 function App() {
 
@@ -16,6 +16,7 @@ function App() {
   return (
     <Routes>
         <Route path="/" element={<Home/>} />
+        <Route path="/*" element={<PageNotFound/>} />
     </Routes>
   )
 }

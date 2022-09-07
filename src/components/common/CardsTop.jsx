@@ -11,7 +11,7 @@ const CardsTop = ({image,title,creator,eth,value,price}) => {
   return (
     <div className='bg-gradient-to-br from-transparent to-[#131313] border-[#474747] border-[0.5px] w-[300px] h-[472px] p-4 rounded-2xl'>
 
-      <img className='rounded-xl' decoding='auto' src={image} alt="nft" />
+      <img className='rounded-xl' decoding='sync' loading='eager' src={image} alt="nft" />
 
 
       <div className='font-poppins font-semibold mt-3 mb-1'>

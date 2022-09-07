@@ -11,6 +11,7 @@ import combinedShape from "./Combined-Shape.svg";
 import rectangle1 from "./Rectangle1.png";
 import rectangle2 from "./Rectangle2.png";
 import rectangle3 from "./Rectangle3.png";
+import clipboard from "./clipboard.svg";
 
 export {
   logo,
@@ -26,4 +27,5 @@ export {
   rectangle1,
   rectangle2,
   rectangle3,
+  clipboard,
 };

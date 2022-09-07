@@ -23,7 +23,7 @@ const ArticleSection = () => {
     ]
 
     return (
-        <div className='mt-[27vh]'>
+        <div className='mt-[27vh] mb-[10vh]'>
             <div className='flex justify-center items-center mb-[8vh]'>
                 <div className=' font-clashDisplay text-4xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#69EACB] via-[#EACCF8] to-[#6654F1]'>
                     Top Collections
@@ -43,7 +43,7 @@ const ArticleSection = () => {
                 }
             </div>
 
-            <div className="flex justify-center items-center mt-[8vh]">
+            <div className="flex justify-center items-center mt-[8vh] ">
                 <Button>
                     see more
                 </Button>
