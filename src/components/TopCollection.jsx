@@ -20,7 +20,7 @@ const TopCollection = () => {
             </div>
 
             <Tab.Group >
-                <Tab.List className='flex justify-center items-center space-x-7 m-[8vh]'>
+                <Tab.List className='flex md:justify-center overflow-x-auto lg:overflow-x-hidden items-center space-x-7 m-2 md:m-[8vh]'>
                     {/* {btn.map(item => {
                         <Tab  className={({ selected }) =>
                             classNames(
@@ -117,7 +117,7 @@ const TopCollection = () => {
                 <Tab.Panels>
                     <Tab.Panel>
                         <div className='flex justify-center items-center '>
-                            <div className='inline-grid grid-cols-4 gap-5'>
+                            <div className='inline-grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5'>
 
                                 {topCollData.map((data, index) => {
                                     return (
@@ -138,6 +138,9 @@ const TopCollection = () => {
                         Content 2
                     </Tab.Panel>
                     <Tab.Panel>Content 3</Tab.Panel>
+                    <Tab.Panel>Content 4</Tab.Panel>
+                    <Tab.Panel>Content 5</Tab.Panel>
+                    <Tab.Panel>Content 6</Tab.Panel>
                 </Tab.Panels>
             </Tab.Group>
 

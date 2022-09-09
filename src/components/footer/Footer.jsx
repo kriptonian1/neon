@@ -14,9 +14,9 @@ const Footer = () => {
         </div>
 
         {/* email input */}
-        <div class="relative">
-          <input type="email" id="email" class="block p-4 pl-10 w-[29vw] text-sm text-gray-900 bg-[#D9D9D9] focus:outline-none rounded-full border border-[#D9D9D9] placeholder:text-[#3a3939]" placeholder="Your Email..." required />
-          <button type="button" class="text-white absolute right-2.5 bottom-2.5 bg-[#2F80ED] hover:bg-blue-800  focus:outline-none focus:ring-blue-300 rounded-full text-sm px-6 py-2  font-semibold">I'm</button>
+        <div className="relative">
+          <input type="email" id="email" className="block p-4 pl-10 w-[29vw] text-sm text-gray-900 bg-[#D9D9D9] focus:outline-none rounded-full border border-[#D9D9D9] placeholder:text-[#3a3939]" placeholder="Your Email..." required />
+          <button type="button" className="text-white absolute right-2.5 bottom-2.5 bg-[#2F80ED] hover:bg-blue-800  focus:outline-none focus:ring-blue-300 rounded-full text-sm px-6 py-2  font-semibold">I'm In</button>
         </div>
 
         <div className='my-[10vh] flex justify-center items-center border-b-[0.01px] w-[60vw] border-white'></div>

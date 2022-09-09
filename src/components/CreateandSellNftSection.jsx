@@ -13,7 +13,7 @@ const CreateandSellNftSection = () => {
 
                 <div className='flex justify-around'>
                     <div className='flex flex-col justify-center items-center '>
-                        <img className='m-8' src={wallet} alt="wallet" />
+                        <img className=' m-8' src={wallet} alt="wallet" />
                         <div className='m-5 font-poppins text-2xl font-semibold'>
                             Set up your wallet
                         </div>

@@ -6,9 +6,9 @@ import Tilt from "react-parallax-tilt";
 const HeroSection = () => {
 
     return (
-        <div className='flex justify-evenly'>
+        <div className='flex md:justify-evenly'>
             <div className=' pl-4 pt-[10vh] '>
-                <div className='text-7xl font-clashDisplay'>
+                <div className='text-5xl md:text-7xl font-clashDisplay'>
                     <div>Discover</div>
                     <div>collect, & sell</div>
                     <div className='font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#69EACB] via-[#EACCF8] to-[#6654F1]'>Extraordinary</div>
@@ -67,7 +67,7 @@ const HeroSection = () => {
             </div>
 
             <Tilt
-                className="tilt"
+                className="tilt hidden md:flex"
                 tiltMaxAngleX={10}
                 tiltMaxAngleY={10}
                 perspective={1000}
@@ -75,7 +75,7 @@ const HeroSection = () => {
                 gyroscope={true}
                 scale={1.05}
             >
-                <img className='w-[35vw] ' data-tilt src={HeroImg} alt="hero" />
+                <img className='w-[35vw] hidden md:flex' data-tilt src={HeroImg} alt="hero" />
             </Tilt>
 
 

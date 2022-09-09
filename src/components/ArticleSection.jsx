@@ -30,7 +30,7 @@ const ArticleSection = () => {
                 </div>
             </div>
 
-            <div className='flex space-x-5 justify-center'>
+            <div className='flex flex-col md:flex-row space-y-5 md:space-x-5 items-center m-7 justify-center'>
                 {
                     articleData.map((data, index) => {
                         return (

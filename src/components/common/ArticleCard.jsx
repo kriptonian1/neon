@@ -10,7 +10,7 @@ import React from 'react'
 
 const ArticleCard = ({image, title, time}) => {
     return (
-        <div className='bg-gradient-to-br from-transparent to-[#131313] border-[#474747] border-[0.5px] w-[25rem] h-auto  rounded-2xl'>
+        <div className='bg-gradient-to-br from-transparent to-[#131313] border-[#474747] border-[0.5px] md:w-[25rem] h-auto  rounded-2xl'>
             <img className='rounded-t-2xl' src={image} alt="" />
 
             <div className='m-4 '>
