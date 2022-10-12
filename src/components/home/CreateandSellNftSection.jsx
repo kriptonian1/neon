@@ -1,5 +1,5 @@
 import React from 'react'
-import { combinedShape, paperUpload, wallet } from '../assets'
+import { combinedShape, paperUpload, wallet } from '../../assets'
 
 const CreateandSellNftSection = () => {
     return (

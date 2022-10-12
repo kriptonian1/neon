@@ -1,9 +1,12 @@
 import React from 'react'
-import { HeroImg } from '../assets'
-import { Button } from './common'
+import { HeroImg } from '../../assets'
+import { Button } from '../common'
 import Tilt from "react-parallax-tilt";
+import { useNavigate } from 'react-router-dom';
 
 const HeroSection = () => {
+
+    const navigate = useNavigate();
 
     return (
         <div className='flex md:justify-evenly'>
@@ -15,7 +18,7 @@ const HeroSection = () => {
                     <div>
                         NFTs
                     </div>
-                    <div className={`bg-[#0400ff98] h-[40vh] w-[14vw] rounded-full blur-[150px] absolute left-[20vw] top-[28vh]`}></div>
+                    <div className={`bg-[#0400ff98] h-[40vh] w-[14vw] z-[-1] rounded-full blur-[150px] absolute left-[20vw] top-[28vh]`}></div>
                 </div>
 
                 <div className='font-poppins pt-7'>
@@ -31,10 +34,10 @@ const HeroSection = () => {
                 </div>
 
                 <div className='space-x-6 py-8'>
-                    <Button color="blue">
+                    <Button  color="blue">
                         Explore
                     </Button>
-                    <Button color="transparent">
+                    <Button onClick={() => navigate('/create')} color="transparent">
                         Create
                     </Button>
                 </div>

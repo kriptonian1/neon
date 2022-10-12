@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import topCollData from '../../testData/topCollData';
-import { Button, CardsTop } from './common'
+import topCollData from '../../../testData/topCollData';
+import { Button, CardsTop } from '../common'
 import { Tab } from '@headlessui/react'
 
 const TopCollection = () => {

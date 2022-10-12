@@ -12,6 +12,15 @@ import rectangle1 from "./Rectangle1.png";
 import rectangle2 from "./Rectangle2.png";
 import rectangle3 from "./Rectangle3.png";
 import clipboard from "./clipboard.svg";
+import linkdInImg from "./linkdInImg.svg";
+import twitterImg from "./twitterImg.svg";
+import discordImg from "./discordImg.svg";
+import instagramImg from "./InstagramImg.svg";
+import linkdinColorImg from "./linkdinColorImg.svg";
+import twitterColorImg from "./twitterColorImg.svg";
+import discordColorImg from "./discordColorImg.svg";
+import instagramColorImg from "./instagramColorImg.svg";
+import nftUploadLogo from "./nftUploadLogo.svg";
 
 export {
   logo,
@@ -28,4 +37,13 @@ export {
   rectangle2,
   rectangle3,
   clipboard,
+  linkdInImg,
+  twitterImg,
+  discordImg,
+  instagramImg,
+  linkdinColorImg,
+  twitterColorImg,
+  discordColorImg,
+  instagramColorImg,
+  nftUploadLogo,
 };

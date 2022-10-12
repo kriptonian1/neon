@@ -1,6 +1,6 @@
 import React from 'react'
-import { rectangle1, rectangle2, rectangle3 } from '../assets'
-import { ArticleCard, Button } from './common'
+import { rectangle1, rectangle2, rectangle3 } from '../../assets'
+import { ArticleCard, Button } from '../common'
 
 const ArticleSection = () => {
 

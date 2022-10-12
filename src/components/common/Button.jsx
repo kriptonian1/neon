@@ -4,6 +4,7 @@ import React from 'react'
  * 
  * @description Button component with different color
  * @param {string} color blue or transparent 
+ * @param {function} onClick onClick handler function
  * @returns react component
  */
 const Button = (props) => {

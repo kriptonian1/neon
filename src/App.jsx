@@ -1,5 +1,5 @@
 import { Route, Router, Routes } from "react-router-dom"
-import { Home, PageNotFound } from "./pages"
+import { Community, CreateNFt, Home, PageNotFound } from "./pages"
 
 function App() {
 
@@ -15,8 +15,10 @@ function App() {
 
   return (
     <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/*" element={<PageNotFound/>} />
+      <Route path="/" element={<Home />} />
+      <Route path="/community" element={<Community />} />
+      <Route path="/create" element={<CreateNFt />} />
+      <Route path="/*" element={<PageNotFound />} />
     </Routes>
   )
 }
