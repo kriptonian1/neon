@@ -41,10 +41,10 @@ const Navbar = () => {
                                 <a href="#" className="block py-2 pr-4 pl-3 font-semibold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Collection</a>
                             </li>
                             <li>
-                                <a href="/community" className="block py-2 pr-4 pl-3 font-semibold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Community</a>
+                                <a href='/community' onClick={() => navigate('/community')} className="block py-2 pr-4 pl-3 font-semibold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Community</a>
                             </li>
                             <li>
-                                <a href="#" className="block py-2 pr-4 pl-3 font-semibold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Create</a>
+                                <a href="/create" onClick={() => navigate('/create')} className="block py-2 pr-4 pl-3 font-semibold rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Create</a>
                             </li>
                             <li className='pl-9'>
                                 {
